@@ -1,0 +1,91 @@
+/* Common style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section style */
+.orange-text {
+    color: orange;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.11);
+    padding: 0 50px;
+}
+
+.header-title,
+.header-image {
+    width: 50%;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+/*  Services section style */
+#services {
+    width: 100%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-item {
+    width: 30%;
+    background-color: rgba(255, 166, 0, 0.11);
+    ;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.service-icon {
+    width: 30%;
+}
+
+.service-icon img {
+    width: 75%;
+    padding: 10px;
+}
+
+.service-content {
+    width: 70%;
+}
+
+/* Product-section style */
+#product-section {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.laptop-section {
+    width: 90%;
+    margin: 0 auto;
+
+}
